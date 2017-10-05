@@ -1,0 +1,55 @@
+PATRICK TORAL (cruzID: ptoral)
+
+I have read and understood the Academic Misconduct Policy for
+Undergraduates, the related sections 102.01-102.016 and 105.15 of the UC Santa Cruz Student Policies and Regulations Handbook, and the related sections of the class syllabus.
+
+Patrick Jose Toral
+
+I wrote this assignment using only permitted sources that do not require citation, according to the syllabus.
+
+-------------------------------------------------------------------------------------
+PROGRAM INFORMATION :
+
+The obejctive of this program was to implement Prims Minimum Spanning Tree and Dijskstra Shortest Path algorithms using priority queue and adjwgtvec. To do so we had to make two new data structures for use in the program; PriorityQueue (MinPQ) and AdjWgt (Essentially the edges that are pushed onto certain indices of the adjwgtvec)
+
+-------------------------------------------------------------------------------------
+
+HOW TO RUN :
+
+1. make
+2. make greedy04
+3. ./greedy04 (-P or -D) (Source Vector <= n) (INPUT FILE)
+
+HOW TO MAKE .o FILES :
+1. make 
+
+HOW TO RETURN DIRECTORY TO ORIGINAL STATE :
+1. make clean
+
+IF N > 20 :
+1. THE OUTPUT FILE WILL BE PUT INTO THE FILE CALLED out_file.txt
+2. cat out_file.txt (TO OPEN)
+
+-------------------------------------------------------------------------------------
+
+TEST FILE INFORMATION :
+
+begin.test - correct input
+hope.in - large test file
+
+-------------------------------------------------------------------------------------
+
+INCLUDED FILES :
+
+greedy04.c
+
+minPQ.c
+minPQ.h
+
+adjWgtVec.c
+adjWgtVec.h
+
+loadWgtGraph..c
+loadWgtGraph..h
+
+(testfiles)
